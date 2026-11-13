@@ -645,3 +645,50 @@ li ul li a {
     nav.menu li ul {padding-top: 0;}
 }
 
+/* Disclaimer */
+
+#disclaimer {
+    width: 100%;
+    box-sizing: border-box;
+    padding: 12px 20px;
+    background: #fff3cd;
+    border-bottom: 2px solid #e0a800;
+    color: #664d03;
+    font-family: Arial, sans-serif;
+    font-size: 13px;
+    line-height: 1.5;
+    margin-bottom: 20px;
+}
+
+.disclaimer-content {
+    max-width: 1200px;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.disclaimer-icon {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-shrink: 0;
+    width: 22px;
+    height: 22px;
+    border-radius: 50%;
+    background: #b77900;
+    color: white;
+    font-weight: bold;
+    font-size: 14px;
+}
+
+#disclaimer strong {
+    color: #533f03;
+}
+
+@media (max-width: 600px) {
+    #disclaimer {
+        padding: 10px 12px;
+        font-size: 12px;
+    }
+}

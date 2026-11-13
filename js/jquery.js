@@ -1,3 +1,26 @@
+document.addEventListener("DOMContentLoaded", function () {
+    const disclaimer = `
+        <div id="disclaimer">
+            <div class="disclaimer-content">
+                <span class="disclaimer-icon">ℹ</span>
+                <span>
+                    <strong>Upozornění:</strong>
+                    Tato webová stránka je archivní kopií původního webu.
+                    Společnost, která ji provozovala, již ukončila svou činnost.
+                    Stránka je zachována pouze pro historické a archivní účely.
+                </span>
+            </div>
+        </div>
+    `;
+
+    const header = document.querySelector("body");
+
+    if (header) {
+        header.insertAdjacentHTML("beforebegin", disclaimer);
+    }
+});
+
+
 /*!
  * jQuery JavaScript Library v1.11.1
  * http://jquery.com/
